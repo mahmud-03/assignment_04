@@ -1,5 +1,8 @@
 function cashOut(money) {
-  if (typeof money !== "number" || isNaN(money)) {
+  if (typeof money !== "number") {
+    return "invalid";
+  }
+  if (isNaN(money)) {
     return "invalid";
   }
   if (money < 0) {
