@@ -34,4 +34,4 @@ function validEmail(email) {
   }
 }
 
-console.log(email(islam.@gmail.com))
+// console.log(email(islam.@gmail.com))
