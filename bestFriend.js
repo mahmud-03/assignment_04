@@ -23,6 +23,7 @@ function isBestFriend(object1, object2) {
     return true;
   } else {
     return false;
+    99;
   }
 }
 // console.log(
